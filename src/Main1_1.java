@@ -7,8 +7,7 @@ public class Main1_1 {
 		
 		Scanner sc = new Scanner(System.in);
 		String str = sc.next().toUpperCase();
-		char c = str.charAt(0);
-		System.out.println(c);
+		char c = sc.next().toUpperCase().charAt(0);
 		int answer = 0;
 		
 		

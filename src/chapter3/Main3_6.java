@@ -1,5 +1,6 @@
 package chapter3;
 
+import java.util.Map;
 import java.util.Scanner;
 
 public class Main3_6 {
@@ -20,7 +21,7 @@ public class Main3_6 {
 				lt++;
 			}
 			answer=Math.max(answer, rt-lt+1);
-		}
+		}                            //길이
 		System.out.println(answer);
 		
 		

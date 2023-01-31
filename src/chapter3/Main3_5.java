@@ -11,6 +11,7 @@ public class Main3_5 {
 		int[] arr= new int[m];
 		
 		for(int i=0; i<m; i++) arr[i]=i+1;
+		
 		for(int rt=0; rt<m; rt++) {
 			sum+=arr[rt];
 			if(sum==n) answer++;

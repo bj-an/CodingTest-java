@@ -15,7 +15,10 @@ public class Main4_2 {
 			map.put(x, map.getOrDefault(x,0)+1);
 		}
 		for(char x: b.toCharArray()) {
-			if(!map.containsKey(x) || map.get(x) == 0) answer="NO";
+			if(!map.containsKey(x) || map.get(x) == 0) {
+				answer="NO";
+				break;
+			}
 			map.put(x, map.get(x)-1);
 		}
 		System.out.println(answer);

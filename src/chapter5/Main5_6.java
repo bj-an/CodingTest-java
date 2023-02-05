@@ -21,9 +21,6 @@ public class Main5_6 {
 			if(Q.size()==1) answer=Q.poll();
 		}
 		System.out.println(answer);
-		
-		
-		
-		
+
 	}
 }

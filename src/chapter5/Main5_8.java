@@ -42,7 +42,7 @@ public class Main5_8 {
 			if(tmp!=null) {
 				answer++;
 				if(tmp.id==m) 
-				System.out.println(answer);;
+				System.out.println(answer);
 			}
 		}
 		
